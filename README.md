@@ -10,7 +10,6 @@ El **actuador Emitter** es un módulo de lanzamiento de comunicación que se uti
 
 -->
 <!-- _class: titlepage -->
-![bg left:33%](https://images.unsplash.com/photo-1562758778-e5638b5b6607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80)
 
 ![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/actuadorEmitter.jpg)
 

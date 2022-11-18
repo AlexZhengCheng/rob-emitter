@@ -76,7 +76,7 @@ Para la creación de esta simulación usamos el actuador *Emitter*, además de u
 			 #include <webots/emitter.h> 
 			 int wb_emitter_send(WbDeviceTag tag, const void *data, int size);
 	
-	La función *wb_emitter_send* mete a la cola del emisor un paquete de *size* bytes situada en la dirección indicada por **data.* Este paquete de datos enviará la información a los receptores a una velocidad indicada por el *baudRate* del emisor y el nodo receptor recibirá la información inmediatamente. La ejecución de esta función devolverá 1 si el mensaje está en la cola de envío, en caso contrario, si devuelve 0, quiere decir que la cola está llena. La consideración de que la cola esté llena es cuando la suma de bytes de todos los paquetes que se encuentra en cola sobrepasa el tamaño del campo búfer (*bufferSize*).
+	La función `wb_emitter_send` mete a la cola del emisor un paquete de *size* bytes situada en la dirección indicada por **data.* Este paquete de datos enviará la información a los receptores a una velocidad indicada por el *baudRate* del emisor y el nodo receptor recibirá la información inmediatamente. La ejecución de esta función devolverá 1 si el mensaje está en la cola de envío, en caso contrario, si devuelve 0, quiere decir que la cola está llena. La consideración de que la cola esté llena es cuando la suma de bytes de todos los paquetes que se encuentra en cola sobrepasa el tamaño del campo búfer (*bufferSize*).
 	
 	-	Para establecer y obtener el canal del emisor, definiremos el paquete y las siguientes funciones:
 	

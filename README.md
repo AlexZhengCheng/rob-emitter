@@ -29,6 +29,12 @@ En la versión simulada, utilizando el programa Webots obteniendo resultados en 
 
 Otro ejemplo, el sensor ultrasónico ( *Figura 4* ), se encuentra en el interior de los sensores para medir distancias o detectar obstáculos. Para su funcionamiento, dispone de dos pequeños cilindros, una trabaja como emisor, emitiendo ondas ultrasónicas, y la otra como receptor, que espera a que dicho sonido se emita y pueda recibirlo.
 
+![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/sensor%C3%93ptico.jpg)
+> Figura 3.
+
+![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/sensorUltras%C3%B3nico.jpg)
+> Figura 4.
+
 ---
 
 **3. FORMA DE USO Y CONFIGURACIONES**

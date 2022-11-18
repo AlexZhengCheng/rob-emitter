@@ -8,7 +8,7 @@ Bofeng Alejandro Zheng Cheng
 
 El **actuador Emitter** es un módulo de lanzamiento de comunicación que se utiliza para transmitir emisores de radio, puertos serie o señales de comunicación infrarroja. Para simular una comunicación bidireccional entre dos robots, un robot debe tener un *Emitter* y el otro un *Receiver*. Por lo tanto, en la simulación, estos dos robots se intercambian mensajes mutuamente. Pero tanto el robot emisor como el receptor, no pueden transmitirse mensajes a sí mismo, es decir, cuando el emisor manda un mensaje al *Receiver*, él no puede recibir datos.
 
-![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/actuadorEmitter.jpg | width=100)
+![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/actuadorEmitter.jpg)
 
 Para la simulación de este actuador, se necesitará el sensor de *Receiver* ya que éste recibirá los mensajes transmitidos por el emisor. Es decir, el actuador *Emitter* estará rodeado por una esfera donde se emitirán los mensajes, cuando el receptor entre en esa esfera, captará el mensaje transmitido por el emisor, lanzando por pantalla: “*Hello!*” ( *Figura 1* ). Si en algún momento el receptor sale de esa esfera, se emitirá un mensaje en la pantalla: “*Communication broken!*” ( *Figura 2* ).
 

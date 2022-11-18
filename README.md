@@ -10,12 +10,11 @@ El **actuador Emitter** es un módulo de lanzamiento de comunicación que se uti
 
 ![bg right:100%](https://github.com/AlexZhengCheng/rob-emitter/blob/main/actuadorEmitter.jpg)
 
-> Follow your heart.
-
 Para la simulación de este actuador, se necesitará el sensor de *Receiver* ya que éste recibirá los mensajes transmitidos por el emisor. Es decir, el actuador *Emitter* estará rodeado por una esfera donde se emitirán los mensajes, cuando el receptor entre en esa esfera, captará el mensaje transmitido por el emisor, lanzando por pantalla: “*Hello!*” ( *Figura 1* ). Si en algún momento el receptor sale de esa esfera, se emitirá un mensaje en la pantalla: “*Communication broken!*” ( *Figura 2* ).
 
 ![]
 ()
+> Follow your heart.
 
 
 ---

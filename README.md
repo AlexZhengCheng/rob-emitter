@@ -15,6 +15,9 @@ Para la simulación de este actuador, se necesitará el sensor de *Receiver* ya 
 ![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/IN_EMITTER_hello.jpg)
 > Figura 1.
 
+![](https://github.com/AlexZhengCheng/rob-emitter/blob/main/OUT_EMITTER_Communicationbroken.jpg)
+> Figura 2.
+
 
 ---
 

@@ -36,7 +36,7 @@ Para la creación de esta simulación usamos el actuador *Emitter*, además de u
 
 * **Paso 1**: Crear un nodo de robot, dentro de este nodo añadimos el nodo Emitter en el apartado children.
 
-* ** Paso 2**: Creamos la forma de nuestra figura en el nodo secundario, en la clase children del nodo Emitter, donde podremos crear la forma tridimensional para el trasmisor.
+* **Paso 2**: Creamos la forma de nuestra figura en el nodo secundario, en la clase children del nodo Emitter, donde podremos crear la forma tridimensional para el trasmisor.
 
 * **Paso 3**: La configuración de los parámetros del transmisor:
 	-	*Type* : se usa para restablecer los tipos de señales, que son: “Radio”, la comunicación inalámbrica más común, “Infra-Red”, la comunicación infrarroja; y “Serial”, la comunicación del puerto serie. Las comunicaciones infrarrojas serán bloqueadas por los obstáculos que hay en la simulación.

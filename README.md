@@ -1,4 +1,4 @@
-###### Grupo y nombre
+###### Grupo y nombre:
 Exceptional Emergency Juggernauts
 Bofeng Alejandro Zheng Cheng
 
